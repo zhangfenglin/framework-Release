@@ -1,2 +1,2 @@
-pod lib lint --sources='https://github.com/CocoaPods/Specs.git,https://github.com/zhangfenglin/spec.git' --allow-warnings --verbose
+#pod lib lint --sources='https://github.com/CocoaPods/Specs.git,https://github.com/zhangfenglin/spec.git' --allow-warnings --verbose
 pod repo push zhangfenglin-spec XALFrameworksRelease.podspec --sources='https://github.com/CocoaPods/Specs.git,https://github.com/zhangfenglin/spec.git' --allow-warnings --verbose

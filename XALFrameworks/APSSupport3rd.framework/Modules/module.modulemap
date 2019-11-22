@@ -1,0 +1,6 @@
+framework module APSSupport3rd {
+  umbrella header "APSSupport3rd-umbrella.h"
+
+  export *
+  module * { export * }
+}

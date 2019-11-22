@@ -1,0 +1,6 @@
+framework module APSZeus {
+  umbrella header "APSZeus-umbrella.h"
+
+  export *
+  module * { export * }
+}

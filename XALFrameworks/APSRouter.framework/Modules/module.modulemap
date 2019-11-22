@@ -1,0 +1,6 @@
+framework module APSRouter {
+  umbrella header "APSRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}

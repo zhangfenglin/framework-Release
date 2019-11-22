@@ -1,0 +1,6 @@
+framework module APSLibraryAdapter {
+  umbrella header "APSLibraryAdapter-umbrella.h"
+
+  export *
+  module * { export * }
+}

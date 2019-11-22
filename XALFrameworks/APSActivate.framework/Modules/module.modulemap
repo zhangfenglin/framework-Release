@@ -1,0 +1,6 @@
+framework module APSActivate {
+  umbrella header "APSActivate-umbrella.h"
+
+  export *
+  module * { export * }
+}

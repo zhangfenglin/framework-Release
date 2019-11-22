@@ -1,0 +1,6 @@
+framework module APSSdkService {
+  umbrella header "APSSdkService-umbrella.h"
+
+  export *
+  module * { export * }
+}

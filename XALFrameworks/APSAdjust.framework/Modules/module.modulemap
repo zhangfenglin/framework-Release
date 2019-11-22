@@ -1,0 +1,6 @@
+framework module APSAdjust {
+  umbrella header "APSAdjust-umbrella.h"
+
+  export *
+  module * { export * }
+}

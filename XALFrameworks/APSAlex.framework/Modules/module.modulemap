@@ -1,0 +1,6 @@
+framework module APSAlex {
+  umbrella header "APSAlex-umbrella.h"
+
+  export *
+  module * { export * }
+}

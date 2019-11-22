@@ -1,0 +1,6 @@
+framework module APSMiddleware {
+  umbrella header "APSMiddleware-umbrella.h"
+
+  export *
+  module * { export * }
+}

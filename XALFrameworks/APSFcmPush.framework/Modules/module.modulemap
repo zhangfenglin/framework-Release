@@ -1,0 +1,6 @@
+framework module APSFcmPush {
+  umbrella header "APSFcmPush-umbrella.h"
+
+  export *
+  module * { export * }
+}

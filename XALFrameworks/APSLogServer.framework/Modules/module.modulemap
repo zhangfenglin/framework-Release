@@ -1,0 +1,6 @@
+framework module APSLogServer {
+  umbrella header "APSLogServer-umbrella.h"
+
+  export *
+  module * { export * }
+}
