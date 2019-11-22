@@ -1,0 +1,1 @@
+pod repo add zhangfenglin-spec https://github.com/zhangfenglin/spec.git

@@ -1,5 +1,7 @@
 PODS:
-  - XALFrameworksRelease (0.1.0)
+  - XALFrameworksRelease (0.0.1):
+    - XALFrameworksRelease/lesson (= 0.0.1)
+  - XALFrameworksRelease/lesson (0.0.1)
 
 DEPENDENCIES:
   - XALFrameworksRelease (from `../`)
@@ -9,8 +11,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XALFrameworksRelease: cdf10090e954c0d2d20b6e438fdb566efe3e8b19
+  XALFrameworksRelease: 78ee2bc9e4d167a8e544133ebc86b684fde80725
 
-PODFILE CHECKSUM: cb5c6d129152197ed7b1d74f25045cf58bb031cd
+PODFILE CHECKSUM: d18eb6c9dc36de106de66822a88aa4c8205db2cd
 
 COCOAPODS: 1.8.4

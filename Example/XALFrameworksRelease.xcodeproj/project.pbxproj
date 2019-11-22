@@ -61,9 +61,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8C5F0F75A2D750D8C198591D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		8CEB6D3B4647248CF2216097 /* XALFrameworksRelease.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XALFrameworksRelease.podspec; path = ../XALFrameworksRelease.podspec; sourceTree = "<group>"; };
-		A93701C6F88F3BEC5725A6A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8C5F0F75A2D750D8C198591D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8CEB6D3B4647248CF2216097 /* XALFrameworksRelease.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XALFrameworksRelease.podspec; path = ../XALFrameworksRelease.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A93701C6F88F3BEC5725A6A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CC87CF7444303A0863A54ED9 /* Pods_XALFrameworksRelease_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XALFrameworksRelease_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1AAE15FF4AD82CAE8B8B586 /* Pods-XALFrameworksRelease_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XALFrameworksRelease_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XALFrameworksRelease_Tests/Pods-XALFrameworksRelease_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ECA8C8287993E349126B1A57 /* Pods-XALFrameworksRelease_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XALFrameworksRelease_Example.debug.xcconfig"; path = "Target Support Files/Pods-XALFrameworksRelease_Example/Pods-XALFrameworksRelease_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				E1AAE15FF4AD82CAE8B8B586 /* Pods-XALFrameworksRelease_Tests.debug.xcconfig */,
 				27A87B26668872091A33CA91 /* Pods-XALFrameworksRelease_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -303,10 +303,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-XALFrameworksRelease_Example/Pods-XALFrameworksRelease_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/XALFrameworksRelease/XALFrameworksRelease.framework",
+				"${PODS_ROOT}/../../XALFrameworks/lesson.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XALFrameworksRelease.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/lesson.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

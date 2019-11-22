@@ -1,6 +1,6 @@
 {
   "name": "XALFrameworksRelease",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "A short description of XALFrameworksRelease.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/zhangfenglin/XALFrameworksRelease",
@@ -13,10 +13,18 @@
   },
   "source": {
     "git": "https://github.com/zhangfenglin/XALFrameworksRelease.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.3"
   },
-  "source_files": "XALFrameworksRelease/Classes/**/*"
+  "source_files": "XALFrameworksRelease/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "lesson",
+      "ios": {
+        "vendored_frameworks": "XALFrameworks/lesson.framework"
+      }
+    }
+  ]
 }

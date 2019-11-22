@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		1337115CAFA167CB1D9A0DBA2F880D37 /* Pods-XALFrameworksRelease_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF0420F81427C4EF966585073EB6EF /* Pods-XALFrameworksRelease_Example-dummy.m */; };
 		1F7CD295029B4D9A1C4EB0241BBB5A98 /* Pods-XALFrameworksRelease_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E86B93ED51EFAE2289FBFAB4D933601B /* Pods-XALFrameworksRelease_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		31F65A9443B6B7BECBDFA8A426E42A1A /* XALFrameworksRelease-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F34FF6BE93B4EA6439602589C9DF7DA /* XALFrameworksRelease-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31F65A9443B6B7BECBDFA8A426E42A1A /* XALFrameworksRelease-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6836F45D117546442FDD32A700C01201 /* XALFrameworksRelease-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		543EB62DE13D762650A4E952066DE3CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		7C55E2069BF073A06218F3FE0C363242 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		81227E34BBA48BCA173D69B07C61D82D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		A3A4998D10C0C047B36C074456E42DC7 /* Pods-XALFrameworksRelease_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBEDC62B80586663350606844516C0D0 /* Pods-XALFrameworksRelease_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEF088EED54C0BEE610CCEB7E5255F91 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 71797C8DC0959BDECBBBC69613635BAD /* ReplaceMe.m */; };
+		AEF088EED54C0BEE610CCEB7E5255F91 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E43D15D58002AD378C26865B493B2A7 /* ReplaceMe.m */; };
 		C4474262DC372EE3D2A0F3348FC399D7 /* Pods-XALFrameworksRelease_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD837B32CA0E672F7732F33A2121B09B /* Pods-XALFrameworksRelease_Tests-dummy.m */; };
-		E5601911CD10748C52829FC2FAFD7EB9 /* XALFrameworksRelease-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 268DD510B7A8AC95F2463470ECA2519E /* XALFrameworksRelease-dummy.m */; };
+		E5601911CD10748C52829FC2FAFD7EB9 /* XALFrameworksRelease-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AB4C978D9B1296A2E70FF1E60E56D1 /* XALFrameworksRelease-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,37 +38,38 @@
 
 /* Begin PBXFileReference section */
 		03C6A901E34036CE483FB4D684693ACD /* Pods_XALFrameworksRelease_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XALFrameworksRelease_Tests.framework; path = "Pods-XALFrameworksRelease_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BDF5586B07175953C8820EFE4B6A418 /* XALFrameworksRelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XALFrameworksRelease.xcconfig; sourceTree = "<group>"; };
 		154B13BED41ECF4C050347A5C180B704 /* Pods-XALFrameworksRelease_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XALFrameworksRelease_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1FBC1384D2AC04BCCC5B5A10FF829D1D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		268DD510B7A8AC95F2463470ECA2519E /* XALFrameworksRelease-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XALFrameworksRelease-dummy.m"; sourceTree = "<group>"; };
+		26B6CED8B7EE1CFFFEE856B349BD70DE /* XALFrameworksRelease-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XALFrameworksRelease-prefix.pch"; sourceTree = "<group>"; };
 		2C3360A78F3B3B406E1E23219322A139 /* Pods-XALFrameworksRelease_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XALFrameworksRelease_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2EFCD115403D546D140DFE2CBA0E8B70 /* Pods-XALFrameworksRelease_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XALFrameworksRelease_Example.release.xcconfig"; sourceTree = "<group>"; };
 		31096A3F7F6DEAFE9703B9E6D7E1028E /* Pods-XALFrameworksRelease_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XALFrameworksRelease_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		341DF38F2C1356E0D9BE2C0A7F227D77 /* XALFrameworksRelease.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XALFrameworksRelease.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		34E3FDFB4F590E0889AD6FC5B68B380A /* Pods-XALFrameworksRelease_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XALFrameworksRelease_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3B13A6E0DE899613B646CBDF2976C35A /* lesson.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = lesson.framework; path = XALFrameworks/lesson.framework; sourceTree = "<group>"; };
 		3E8ABB9494265B73AE28A658A0073431 /* Pods-XALFrameworksRelease_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XALFrameworksRelease_Example.modulemap"; sourceTree = "<group>"; };
 		41F0A82AEC9F0365AEB65EFD39ABA66D /* Pods-XALFrameworksRelease_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XALFrameworksRelease_Tests.modulemap"; sourceTree = "<group>"; };
-		4B57BC29A7DBE4B52DCE0FE35D589B19 /* XALFrameworksRelease-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XALFrameworksRelease-Info.plist"; sourceTree = "<group>"; };
-		59C46C60784C8E7E8F935E47E295AC2E /* XALFrameworksRelease.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XALFrameworksRelease.modulemap; sourceTree = "<group>"; };
-		61952CEF365A01415AFBBBC65B8C8E73 /* XALFrameworksRelease-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XALFrameworksRelease-prefix.pch"; sourceTree = "<group>"; };
-		71797C8DC0959BDECBBBC69613635BAD /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XALFrameworksRelease/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		6836F45D117546442FDD32A700C01201 /* XALFrameworksRelease-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XALFrameworksRelease-umbrella.h"; sourceTree = "<group>"; };
+		6D60B1733425C4243BDC4D7EC6848DE9 /* XALFrameworksRelease-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XALFrameworksRelease-Info.plist"; sourceTree = "<group>"; };
+		6E43D15D58002AD378C26865B493B2A7 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XALFrameworksRelease/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		79AB4C978D9B1296A2E70FF1E60E56D1 /* XALFrameworksRelease-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XALFrameworksRelease-dummy.m"; sourceTree = "<group>"; };
+		7DB6D23DC1D1519FEFAE3AAE08AA77D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		86BC7FA3C28E5E747DA8A11DA32EED80 /* Pods-XALFrameworksRelease_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XALFrameworksRelease_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8ADF0420F81427C4EF966585073EB6EF /* Pods-XALFrameworksRelease_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XALFrameworksRelease_Example-dummy.m"; sourceTree = "<group>"; };
-		8F34FF6BE93B4EA6439602589C9DF7DA /* XALFrameworksRelease-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XALFrameworksRelease-umbrella.h"; sourceTree = "<group>"; };
 		921848B8C5AFFA56D338F2AB2CFBBEBD /* Pods-XALFrameworksRelease_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XALFrameworksRelease_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		98595A8F5186AB672506A48532E113EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		99B37B9CD48476F79986A15C321E46CE /* Pods-XALFrameworksRelease_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XALFrameworksRelease_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DDEA7D8B64488CE309DA0BACA174BFF /* XALFrameworksRelease.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XALFrameworksRelease.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F2E05AD4C47E4ECF8658A63C8A4C258 /* Pods_XALFrameworksRelease_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XALFrameworksRelease_Example.framework; path = "Pods-XALFrameworksRelease_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DD314E0970E1756CAFFE207A2921A6 /* XALFrameworksRelease.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XALFrameworksRelease.modulemap; sourceTree = "<group>"; };
 		A649027393FC9E0B4DE7F7E4769781EE /* Pods-XALFrameworksRelease_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XALFrameworksRelease_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AC40D3234F0A421D4AC0F8A80EB94524 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B2DC4591EABEFE4A404742C1C9622773 /* Pods-XALFrameworksRelease_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XALFrameworksRelease_Example-Info.plist"; sourceTree = "<group>"; };
 		C1F0F3E2535DE4A69D55FAEA8369858E /* XALFrameworksRelease.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XALFrameworksRelease.framework; path = XALFrameworksRelease.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBEDC62B80586663350606844516C0D0 /* Pods-XALFrameworksRelease_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XALFrameworksRelease_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CD837B32CA0E672F7732F33A2121B09B /* Pods-XALFrameworksRelease_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XALFrameworksRelease_Tests-dummy.m"; sourceTree = "<group>"; };
 		E86B93ED51EFAE2289FBFAB4D933601B /* Pods-XALFrameworksRelease_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XALFrameworksRelease_Example-umbrella.h"; sourceTree = "<group>"; };
 		F05270C5C436143BE85A5EEF8246AD0B /* Pods-XALFrameworksRelease_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XALFrameworksRelease_Tests-Info.plist"; sourceTree = "<group>"; };
+		F2F9D273F3665C32E92F024BB8C63479 /* XALFrameworksRelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XALFrameworksRelease.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,22 +127,32 @@
 			path = "Target Support Files/Pods-XALFrameworksRelease_Example";
 			sourceTree = "<group>";
 		};
-		68B05397184C187B52C7878D045916EA /* Development Pods */ = {
+		304770A4137CB26C871E528D82D740E9 /* lesson */ = {
 			isa = PBXGroup;
 			children = (
-				C972FAA5A1249A91BA2E8DFC292D1546 /* XALFrameworksRelease */,
+				58A505CB821B82A563270EDDD31B89BD /* Frameworks */,
 			);
-			name = "Development Pods";
+			name = lesson;
 			sourceTree = "<group>";
 		};
-		84D4577BEF7466AFBA14D51EC7205018 /* Pod */ = {
+		58A505CB821B82A563270EDDD31B89BD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1FBC1384D2AC04BCCC5B5A10FF829D1D /* LICENSE */,
-				AC40D3234F0A421D4AC0F8A80EB94524 /* README.md */,
-				341DF38F2C1356E0D9BE2C0A7F227D77 /* XALFrameworksRelease.podspec */,
+				3B13A6E0DE899613B646CBDF2976C35A /* lesson.framework */,
 			);
-			name = Pod;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		877DE6BDA901EEB90A58A81CED5EEFFC /* XALFrameworksRelease */ = {
+			isa = PBXGroup;
+			children = (
+				6E43D15D58002AD378C26865B493B2A7 /* ReplaceMe.m */,
+				304770A4137CB26C871E528D82D740E9 /* lesson */,
+				E7DBC25E1834176BA9A7B4CA11513D88 /* Pod */,
+				EC48317D918FE0490D6D959D00207C9B /* Support Files */,
+			);
+			name = XALFrameworksRelease;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B1FB4967E53FC0FCD5248F8F212DCC12 /* Targets Support Files */ = {
@@ -161,36 +172,11 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C972FAA5A1249A91BA2E8DFC292D1546 /* XALFrameworksRelease */ = {
-			isa = PBXGroup;
-			children = (
-				71797C8DC0959BDECBBBC69613635BAD /* ReplaceMe.m */,
-				84D4577BEF7466AFBA14D51EC7205018 /* Pod */,
-				CA00E0CD43511E591FDC93BA3CAC417F /* Support Files */,
-			);
-			name = XALFrameworksRelease;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		CA00E0CD43511E591FDC93BA3CAC417F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				59C46C60784C8E7E8F935E47E295AC2E /* XALFrameworksRelease.modulemap */,
-				0BDF5586B07175953C8820EFE4B6A418 /* XALFrameworksRelease.xcconfig */,
-				268DD510B7A8AC95F2463470ECA2519E /* XALFrameworksRelease-dummy.m */,
-				4B57BC29A7DBE4B52DCE0FE35D589B19 /* XALFrameworksRelease-Info.plist */,
-				61952CEF365A01415AFBBBC65B8C8E73 /* XALFrameworksRelease-prefix.pch */,
-				8F34FF6BE93B4EA6439602589C9DF7DA /* XALFrameworksRelease-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XALFrameworksRelease";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				68B05397184C187B52C7878D045916EA /* Development Pods */,
+				F8F68B09B74F432319D2812AFC04E99F /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				1A3B2456C19A9E7384123FFEE7B7BCDB /* Products */,
 				B1FB4967E53FC0FCD5248F8F212DCC12 /* Targets Support Files */,
@@ -219,6 +205,38 @@
 			);
 			name = "Pods-XALFrameworksRelease_Tests";
 			path = "Target Support Files/Pods-XALFrameworksRelease_Tests";
+			sourceTree = "<group>";
+		};
+		E7DBC25E1834176BA9A7B4CA11513D88 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				98595A8F5186AB672506A48532E113EB /* LICENSE */,
+				7DB6D23DC1D1519FEFAE3AAE08AA77D0 /* README.md */,
+				9DDEA7D8B64488CE309DA0BACA174BFF /* XALFrameworksRelease.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		EC48317D918FE0490D6D959D00207C9B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2DD314E0970E1756CAFFE207A2921A6 /* XALFrameworksRelease.modulemap */,
+				F2F9D273F3665C32E92F024BB8C63479 /* XALFrameworksRelease.xcconfig */,
+				79AB4C978D9B1296A2E70FF1E60E56D1 /* XALFrameworksRelease-dummy.m */,
+				6D60B1733425C4243BDC4D7EC6848DE9 /* XALFrameworksRelease-Info.plist */,
+				26B6CED8B7EE1CFFFEE856B349BD70DE /* XALFrameworksRelease-prefix.pch */,
+				6836F45D117546442FDD32A700C01201 /* XALFrameworksRelease-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XALFrameworksRelease";
+			sourceTree = "<group>";
+		};
+		F8F68B09B74F432319D2812AFC04E99F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				877DE6BDA901EEB90A58A81CED5EEFFC /* XALFrameworksRelease */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -404,7 +422,74 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		157404115513840B92A625850BBCDFCD /* Release */ = {
+		362F17C73288983B4856B088DB89F8AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86BC7FA3C28E5E747DA8A11DA32EED80 /* Pods-XALFrameworksRelease_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XALFrameworksRelease_Tests/Pods-XALFrameworksRelease_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XALFrameworksRelease_Tests/Pods-XALFrameworksRelease_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49546D08F8DA54D3C1F85B5B5DC59FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EFCD115403D546D140DFE2CBA0E8B70 /* Pods-XALFrameworksRelease_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XALFrameworksRelease_Example/Pods-XALFrameworksRelease_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XALFrameworksRelease_Example/Pods-XALFrameworksRelease_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E05DBB789DD3DAC945FBE80449383DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 921848B8C5AFFA56D338F2AB2CFBBEBD /* Pods-XALFrameworksRelease_Tests.release.xcconfig */;
 			buildSettings = {
@@ -420,7 +505,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-XALFrameworksRelease_Tests/Pods-XALFrameworksRelease_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-XALFrameworksRelease_Tests/Pods-XALFrameworksRelease_Tests.modulemap";
@@ -438,7 +523,72 @@
 			};
 			name = Release;
 		};
-		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+		802B9B572E5E6ABA0C7E674BDCB19141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2F9D273F3665C32E92F024BB8C63479 /* XALFrameworksRelease.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XALFrameworksRelease/XALFrameworksRelease-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XALFrameworksRelease/XALFrameworksRelease-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XALFrameworksRelease/XALFrameworksRelease.modulemap";
+				PRODUCT_MODULE_NAME = XALFrameworksRelease;
+				PRODUCT_NAME = XALFrameworksRelease;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A134E624B02C426E3112D97C2C4F60BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A649027393FC9E0B4DE7F7E4769781EE /* Pods-XALFrameworksRelease_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XALFrameworksRelease_Example/Pods-XALFrameworksRelease_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XALFrameworksRelease_Example/Pods-XALFrameworksRelease_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -486,7 +636,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,71 +648,7 @@
 			};
 			name = Release;
 		};
-		5709D8B776BF9F6DDD853583B0C557E3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A649027393FC9E0B4DE7F7E4769781EE /* Pods-XALFrameworksRelease_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XALFrameworksRelease_Example/Pods-XALFrameworksRelease_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XALFrameworksRelease_Example/Pods-XALFrameworksRelease_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		626C68B1ACFCBA6D37EE9AFC1013711E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0BDF5586B07175953C8820EFE4B6A418 /* XALFrameworksRelease.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XALFrameworksRelease/XALFrameworksRelease-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XALFrameworksRelease/XALFrameworksRelease-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XALFrameworksRelease/XALFrameworksRelease.modulemap";
-				PRODUCT_MODULE_NAME = XALFrameworksRelease;
-				PRODUCT_NAME = XALFrameworksRelease;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -613,7 +699,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -626,43 +712,9 @@
 			};
 			name = Debug;
 		};
-		97B98483C9CB810F9BEC3BF13F0AFD8C /* Release */ = {
+		C27753883BDD40C5DBD8CDA14E2A3279 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2EFCD115403D546D140DFE2CBA0E8B70 /* Pods-XALFrameworksRelease_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XALFrameworksRelease_Example/Pods-XALFrameworksRelease_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XALFrameworksRelease_Example/Pods-XALFrameworksRelease_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9D442EFAEA6D3E4FF024D760C93696DD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0BDF5586B07175953C8820EFE4B6A418 /* XALFrameworksRelease.xcconfig */;
+			baseConfigurationReference = F2F9D273F3665C32E92F024BB8C63479 /* XALFrameworksRelease.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -676,7 +728,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/XALFrameworksRelease/XALFrameworksRelease-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/XALFrameworksRelease/XALFrameworksRelease-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/XALFrameworksRelease/XALFrameworksRelease.modulemap";
 				PRODUCT_MODULE_NAME = XALFrameworksRelease;
@@ -685,40 +737,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DBDD2F9EE9D7F89B3ED827D31DFAD257 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86BC7FA3C28E5E747DA8A11DA32EED80 /* Pods-XALFrameworksRelease_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XALFrameworksRelease_Tests/Pods-XALFrameworksRelease_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XALFrameworksRelease_Tests/Pods-XALFrameworksRelease_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -731,8 +749,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
-				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -740,8 +758,8 @@
 		606B043C78A8277705D039CF97FA539F /* Build configuration list for PBXNativeTarget "Pods-XALFrameworksRelease_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5709D8B776BF9F6DDD853583B0C557E3 /* Debug */,
-				97B98483C9CB810F9BEC3BF13F0AFD8C /* Release */,
+				A134E624B02C426E3112D97C2C4F60BF /* Debug */,
+				49546D08F8DA54D3C1F85B5B5DC59FD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -749,8 +767,8 @@
 		910B22BA9AD67C7779C022BFAE138C68 /* Build configuration list for PBXNativeTarget "Pods-XALFrameworksRelease_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DBDD2F9EE9D7F89B3ED827D31DFAD257 /* Debug */,
-				157404115513840B92A625850BBCDFCD /* Release */,
+				362F17C73288983B4856B088DB89F8AE /* Debug */,
+				4E05DBB789DD3DAC945FBE80449383DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -758,8 +776,8 @@
 		F173C3B66AB1A8B3A81F4B810EABD3B6 /* Build configuration list for PBXNativeTarget "XALFrameworksRelease" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				626C68B1ACFCBA6D37EE9AFC1013711E /* Debug */,
-				9D442EFAEA6D3E4FF024D760C93696DD /* Release */,
+				C27753883BDD40C5DBD8CDA14E2A3279 /* Debug */,
+				802B9B572E5E6ABA0C7E674BDCB19141 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
