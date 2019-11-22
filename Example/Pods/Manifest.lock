@@ -1,0 +1,16 @@
+PODS:
+  - XALFrameworksRelease (0.1.0)
+
+DEPENDENCIES:
+  - XALFrameworksRelease (from `../`)
+
+EXTERNAL SOURCES:
+  XALFrameworksRelease:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XALFrameworksRelease: cdf10090e954c0d2d20b6e438fdb566efe3e8b19
+
+PODFILE CHECKSUM: cb5c6d129152197ed7b1d74f25045cf58bb031cd
+
+COCOAPODS: 1.8.4

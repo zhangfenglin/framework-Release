@@ -1,0 +1,6 @@
+framework module XALFrameworksRelease {
+  umbrella header "XALFrameworksRelease-umbrella.h"
+
+  export *
+  module * { export * }
+}

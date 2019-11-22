@@ -1,0 +1,22 @@
+{
+  "name": "XALFrameworksRelease",
+  "version": "0.1.0",
+  "summary": "A short description of XALFrameworksRelease.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhangfenglin/XALFrameworksRelease",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangfenglin": "zhangfenglin@apusapps.com"
+  },
+  "source": {
+    "git": "https://github.com/zhangfenglin/XALFrameworksRelease.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XALFrameworksRelease/Classes/**/*"
+}
